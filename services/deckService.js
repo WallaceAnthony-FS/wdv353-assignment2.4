@@ -1,4 +1,5 @@
 const axios = require("axios")
+require("dotenv").config()
 
 const deckService = async (shuffle=false) => {
     if(shuffle){
