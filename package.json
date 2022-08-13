@@ -4,7 +4,8 @@
   "description": "Assignment 2.4 - Let's write an API",
   "main": "server.js",
   "scripts": {
-    "test": "jest --coverage"
+    "test": "jest --coverage",
+    "start": "nodemon server"
   },
   "keywords": [
     "Assignment",
